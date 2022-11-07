@@ -17,7 +17,6 @@ class Album extends Component {
     const { match: { params: { id } } } = this.props;
     this.setState({ isLoading: true });
     const disc = await getMusics(id);
-    console.log(disc);
     this.setState({
       album: disc[0],
       musics: disc.filter((e) => e.kind === 'song'),
@@ -46,6 +45,7 @@ class Album extends Component {
               key={ e.trackId }
               trackName={ e.trackName }
               previewUrl={ e.previewUrl }
+              trackId={ e.trackId }
             />))}
           </div>
         )}
