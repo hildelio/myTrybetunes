@@ -1,0 +1,38 @@
+#track-name {
+  align-items: center;
+  color: #001813;
+  display: flex;
+  font-family: 'Epilogue';
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  height: 28px;
+  left: 469px;
+  line-height: 14px;
+  position: relative;
+  top: 313px;
+  width: 182px;
+}
+
+#audio {
+  background: #FFFFFF;
+  border-radius: 42.3864px;
+  height: 55.95px;
+  position: relative;
+  left: 624.42px;
+  top: 298.93px;
+  width: 371.3px;
+}
+
+#label-favorites {
+  left: 70%;
+  position: relative;
+}
+
+#favorites {
+  background: #EC5050;
+  border: 2px solid #EC5050;
+  box-sizing: border-box;
+  left: 0%;
+  position: relative;
+}

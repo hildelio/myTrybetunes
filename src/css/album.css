@@ -1,0 +1,36 @@
+#page-album {
+  background: #EFF3F9;
+  height: 486px;
+  left: 250px;
+  position: absolute;
+  top: 234px;
+  width: 1030px;
+}
+
+#artist-name {
+  color: #3D495C;
+  font-family: 'Epilogue';
+  font-size: 9.05234px;
+  font-style: normal;
+  font-weight: 400;
+  height: 14px;
+  left: calc(50% - 147px/2 - 239.5px);
+  line-height: 150%;
+  position: absolute;
+  top: calc(50% - 14px/2 + 255.45px);
+  width: 147px;
+}
+
+#album-name {
+  color: #3D495C;
+  font-family: 'Epilogue';
+  font-size: 12.0698px;
+  font-style: normal;
+  font-weight: 700;
+  height: 18px;
+  left: calc(50% - 147px/2 - 239.5px);
+  line-height: 150%;
+  position: absolute;
+  top: calc(50% - 18px/2 + 236.45px);
+  width: 147px;
+}

@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { addSong, getFavoriteSongs, removeSong } from '../services/favoriteSongsAPI';
 import Loading from '../pages/Loading';
+import '../css/musiccard.css';
 
 class MusicCard extends Component {
   state = {
@@ -43,8 +44,8 @@ class MusicCard extends Component {
       <div>
         {isLoading ? <Loading /> : (
           <div>
-            <p>{trackName}</p>
-            <audio data-testid="audio-component" src={ previewUrl } controls>
+            <p id="track-name">{trackName}</p>
+            <audio id="audio" data-testid="audio-component" src={ previewUrl } controls>
               <track kind="captions" />
               O seu navegador não suporta o elemento
               {' '}
@@ -52,7 +53,7 @@ class MusicCard extends Component {
               <code>audio</code>
               .
             </audio>
-            <label htmlFor="favorites">
+            <label htmlFor="favorites" id="label-favorites">
               Favorita
               <input
                 id="favorites"

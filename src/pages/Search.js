@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import Header from '../components/Header';
 import searchAlbumsAPI from '../services/searchAlbumsAPI';
 import Loading from './Loading';
+import '../css/search.css';
 
 class Search extends Component {
   state = {
@@ -69,6 +70,7 @@ class Search extends Component {
               />
             </label>
             <button
+              id="button-search"
               type="button"
               data-testid="search-artist-button"
               disabled={ isDisabled }
@@ -93,13 +95,17 @@ class Search extends Component {
                     >
                       <ul>
                         <li>
-                          <img src={ e.artworkUrl100 } alt={ e.collectionName } />
+                          <img
+                            src={ e.artworkUrl100 }
+                            alt={ e.collectionName }
+                            className="album-img"
+                          />
                         </li>
                         <li>
-                          <p>{e.collectionName}</p>
+                          <p className="collection-name">{e.collectionName}</p>
                         </li>
                         <li>
-                          <p>{e.artistName}</p>
+                          <p className="artist-name">{e.artistName}</p>
                         </li>
                       </ul>
                     </Link>

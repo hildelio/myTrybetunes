@@ -1,0 +1,61 @@
+#profile-image {
+  border-radius: 240px;
+  filter: drop-shadow(-9px 8px 8px rgba(0, 0, 0, 0.2));
+  height: 240px;
+  left: 326px;
+  position: absolute;
+  top: 111px;
+  width: 240px;
+}
+
+
+#profile-name {
+  bottom: 0%;
+  color: #3D495C;
+  font-family: 'Epilogue';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  left: 50%;
+  line-height: 150%;
+  position: relative;
+  right: 83.33%;
+}
+
+#profile-email {
+  bottom: 0%;
+  color: #3D495C;
+  font-family: 'Epilogue';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  left: 50%;
+  line-height: 150%;
+  position: relative;
+  right: 82.29%;
+  top: 0%;
+}
+
+#profile-description {
+  bottom: 0%;
+  color: #3D495C;
+  font-family: 'Epilogue';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  left: 50%;
+  line-height: 150%;
+  position: relative;
+  right: 71.18%;
+  top: 0%;
+}
+
+ #edit-profile-link {
+  background: #003BE5;
+  border-radius: 100px;
+  height: 40px;
+  left: 602px;
+  position: absolute;
+  top: 564px;
+  width: 152px;
+  }  

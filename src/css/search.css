@@ -1,0 +1,58 @@
+
+#search {
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 23px;
+  height: 40px;
+  left: 504px;
+  position: absolute;
+  top: 97px;
+  width: 400px;
+}
+
+#button-search {
+  background: #00D5E2;
+  border-radius: 23px;
+  height: 40px;
+  left: 913px;
+  position: absolute;
+  top: 97px;  
+  width: 114px;
+}
+
+.album-img {
+  border-radius: 10px;
+  height: 200px;
+  left: calc(50% - 200px/2 - 213px);
+  mix-blend-mode: normal;
+  position: relative;
+  top: calc(50% - 200px/2 + 114px);
+  width: 200px;
+}
+
+.collection-name {
+  color: #3D495C;
+  font-family: 'Epilogue';
+  font-size: 12.0698px;
+  font-style: normal;
+  font-weight: 700;
+  height: 18px;
+  left: calc(50% - 147px/2 - 239.5px);
+  line-height: 150%;
+  position: relative;
+  top: calc(50% - 18px/2 + 236.45px);
+  width: 147px;
+}
+
+.artist-name {
+  color: #3D495C;
+  font-family: 'Epilogue';
+  font-size: 9.05234px;
+  font-style: normal;
+  font-weight: 400;
+  height: 14px;
+  left: calc(50% - 147px/2 - 239.5px);
+  line-height: 150%;
+  position: relative;
+  top: calc(50% - 14px/2 + 255.45px);
+  width: 147px;
+}

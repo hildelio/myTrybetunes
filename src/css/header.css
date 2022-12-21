@@ -1,0 +1,81 @@
+#header-container {
+  background: #FFFFFF;
+  height: 720px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 250px;
+}
+
+#header-logo {
+  height: 95.71px;
+  left: 40px;
+  position: absolute;
+  top: 33.59px;
+  width: 170.81px;
+}
+
+
+#user-name {
+  color: #444955;
+  font-family: 'Epilogue';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  height: 16px;
+  left: 93px;
+  letter-spacing: 0.03em;
+  line-height: 16px;
+  position: absolute;
+  text-transform: capitalize;
+  top: 664px;
+  width: 83px;
+} 
+
+#search-link {
+  color: #444955;
+  font-family: 'Epilogue';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  height: 16px;
+  left: 84px;
+  letter-spacing: 0.03em;
+  line-height: 16px;
+  position: absolute;
+  text-transform: capitalize;
+  top: 277px;
+  width: 77px;
+}
+
+#favorites-link {
+  color: #444955;
+  font-family: 'Epilogue';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  height: 16px;
+  left: 84px;
+  letter-spacing: 0.03em;
+  line-height: 16px;
+  position: absolute;
+  text-transform: capitalize;
+  top: 354px;
+  width: 75px;
+}
+
+#profile-link {
+  color: #444955;
+  font-family: 'Epilogue';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  height: 16px;
+  left: 84px;
+  letter-spacing: 0.03em;
+  line-height: 16px;
+  position: absolute;
+  text-transform: capitalize;
+  top: 431px;
+  width: 42px;
+}

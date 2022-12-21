@@ -4,6 +4,7 @@ import Header from '../components/Header';
 import MusicCard from '../components/MusicCard';
 import getMusics from '../services/musicsAPI';
 import Loading from './Loading';
+import '../css/album.css';
 
 class Album extends Component {
   state = {
@@ -17,6 +18,7 @@ class Album extends Component {
     const { match: { params: { id } } } = this.props;
     this.setState({ isLoading: true });
     const disc = await getMusics(id);
+    console.log(disc);
     this.setState({
       album: disc[0],
       musics: disc.filter((e) => e.kind === 'song'),
@@ -27,17 +29,19 @@ class Album extends Component {
   render() {
     const { isLoading, album, musics } = this.state;
     return (
-      <div data-testid="page-album">
+      <div data-testid="page-album" id="page-album">
         {isLoading ? <Loading /> : (
           <div>
             <Header />
             <p
               data-testid="artist-name"
+              id="artist-name"
             >
               {album.artistName}
             </p>
             <p
               data-testid="album-name"
+              id="album-name"
             >
               {album.collectionName}
             </p>
